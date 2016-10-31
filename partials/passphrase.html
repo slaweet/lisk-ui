@@ -6,9 +6,18 @@
             </div>
             <form class="clearfix pass-window-form" _lpchecked="1" ng-submit="login(pass, rememberPassphrase)">
               <div class="input-field">
-                  <input id="password" type="password" ng-model="pass" ng-trim="false" autofocus>
+                  <input id="password" type="{{showPassphrase ? 'text' : 'password'}}" ng-model="pass" ng-trim="false" autofocus>
                   <label for="password"><translate>Your Passphrase</translate></label>
                   <span class="pass-error" ng-show="errorMessage">{{errorMessage}}</span>
+              </div>
+              <div class="input-group">
+                  <div class="switch blue-switch margin">
+                      <label>
+                          <input type="checkbox" ng-model="showPassphrase">
+                          <span class="lever"></span>
+                          <translate>Show Passphrase</translate>
+                      </label>
+                  </div>
               </div>
               <div class="input-group">
                   <div class="switch blue-switch margin">

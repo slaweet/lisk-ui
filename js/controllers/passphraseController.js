@@ -6,6 +6,7 @@ angular.module('liskApp').controller('passphraseController', ['$scope', '$rootSc
     userService.rememberPassphrase = false;
     userService.rememberedPassphrase = '';
     $scope.rememberPassphrase = true;
+    $scope.showPassphrase = false;
     $scope.errorMessage = "";
 
     $scope.newUser = function () {

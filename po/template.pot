@@ -597,7 +597,7 @@ msgstr ""
 msgid "My votes ({{myVotesCount||'0'}})"
 msgstr ""
 
-#: partials/passphrase.html:26
+#: partials/passphrase.html:35
 msgid "NEW ACCOUNT"
 msgstr ""
 
@@ -814,7 +814,7 @@ msgstr ""
 msgid "Registering user"
 msgstr ""
 
-#: partials/passphrase.html:18
+#: partials/passphrase.html:27
 msgid "Remember during this session"
 msgstr ""
 
@@ -837,7 +837,7 @@ msgstr ""
 msgid "SEND"
 msgstr ""
 
-#: partials/passphrase.html:27
+#: partials/passphrase.html:36
 msgid "SIGN IN"
 msgstr ""
 
@@ -901,6 +901,10 @@ msgstr ""
 #: partials/forging.html:85
 #: partials/transactions.html:19
 msgid "Show Full Time"
+msgstr ""
+
+#: partials/passphrase.html:18
+msgid "Show Passphrase"
 msgstr ""
 
 #: partials/modals/passphraseCheck.html:35
